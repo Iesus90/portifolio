@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const ContainerInfo = styled.div`
-  flex-direction: collum;
+  flex-direction: column;
 `;
 
 export const Title = styled.div`

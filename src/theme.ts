@@ -8,6 +8,22 @@ import gmailWhite from './shared/images/gmailWhite.png';
 import gmailBlack from './shared/images/gmailBlack.png';
 import whatsappWhite from './shared/images/whatsappWhite.png';
 import whatsappBlack from './shared/images/whatsappBlack.png';
+import reactWhite from './shared/images/react_white.png';
+import reactBlack from './shared/images/react_black.png';
+import htmlWhite from './shared/images/html_white.png';
+import htmlBlack from './shared/images/html_black.png';
+import cssWhite from './shared/images/css_white.png';
+import cssBlack from './shared/images/css_black.png';
+import jsWhite from './shared/images/js_white.png';
+import jsBlack from './shared/images/js_black.png';
+import typeWhite from './shared/images/type_white.png';
+import typeBlack from './shared/images/type_black.png';
+import figmaWhite from './shared/images/figma_white.png';
+import figmaBlack from './shared/images/figma_black.png';
+import gitWhite from './shared/images/git_white.png';
+import gitBlack from './shared/images/git_black.png';
+import sqlWhite from './shared/images/sql_white.png';
+import sqlBlack from './shared/images/sql_black.png';
 
 export interface Theme {
   themeName: string;
@@ -22,6 +38,14 @@ export interface Theme {
   iconGmail: string;
   iconWhatsapp: string;
   iconMenu: string;
+  iconReact: string;
+  iconHTML: string;
+  iconCSS: string;
+  iconJs: string;
+  iconType: string;
+  iconFigma: string;
+  iconGit: string;
+  iconSQL: string;
 }
 
 export const light = {
@@ -37,6 +61,14 @@ export const light = {
   iconGmail: gmailBlack,
   iconWhatsapp: whatsappBlack,
   iconMenu: menuWhite,
+  iconReact: reactBlack,
+  iconHTML: htmlBlack,
+  iconCSS: cssBlack,
+  iconJs: jsBlack,
+  iconType: typeBlack,
+  iconFigma: figmaBlack,
+  iconGit: gitBlack,
+  iconSQL: sqlBlack
 };
 
 export const dark = {
@@ -52,4 +84,12 @@ export const dark = {
   iconGmail: gmailWhite,
   iconWhatsapp: whatsappWhite,
   iconMenu: menuBlack,
+  iconReact: reactWhite,
+  iconHTML: htmlWhite,
+  iconCSS: cssWhite,
+  iconJs: jsWhite,
+  iconType: typeWhite,
+  iconFigma: figmaWhite,
+  iconGit: gitWhite,
+  iconSQL: sqlWhite
 };

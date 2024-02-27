@@ -57,7 +57,7 @@ export const Circuits2 = styled.div`
 `;
 
 export const ContainerInfo = styled.div`
-  flex-direction: collum;
+  flex-direction: column;
 `;
 
 export const ContainerTyped = styled.div`

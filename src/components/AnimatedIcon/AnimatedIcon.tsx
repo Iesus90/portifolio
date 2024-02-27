@@ -27,14 +27,14 @@ const AnimatedIcon = ({ dark, light, selectedTheme, setSelectedTheme }: Props) =
   const [isDarkMode, setDarkMode] = useState(selectedTheme.themeName === ThemeType.Dark);
 
   const properties = {
-    [ThemeType.Dark]: {
+    [ThemeType.Light]: {
       r: 9,
       transform: 'rotate(40deg)',
       cx: 12,
       cy: 4,
       opacity: 0,
     },
-    [ThemeType.Light]: {
+    [ThemeType.Dark]: {
       r: 5,
       transform: 'rotate(90deg)',
       cx: 30,
