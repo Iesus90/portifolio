@@ -7,5 +7,9 @@
   "hello": "Hello, my name is ",
   "dev": "Front-End Developer",
   "educationInformation":
-    "Bachelor of Computer Science Federal Institute of Education, Science and Technology of Ceará 2016 - 2021"
+    "Bachelor of Computer Science Federal Institute of Education, Science and Technology of Ceará 2016 - 2021",
+  "descriptionLar": "Responsible for developing and maintaining web systems and mobile applications using technologies such as React, VueJs and React Native. I actively contributed to the creation of solutions for the Teams Lux and Bentham Obras applications.",
+  "descriptionLead": "Responsible for developing and maintaining mobile applications using technologies such as React, React Native and Android. I actively contributed to the creation of solutions for the Accessible Learning and Tutor applications, which are part of LEAD's Distance Learning platform. I've also taken part in other audio processing projects.",
+  "descriptionSalutis": "Responsible for developing and maintaining the company's system using technologies such as JavaScript and SQL. I actively contributed to creating solutions and resolving bugs for the resource management system for companies in the supplementary health sector.",
+  "descriptionKognit": "Responsible for developing and maintaining web systems using technologies such as React js (Styled-component, Redux, Redux-Saga, Redux Thunk, React Router, Hooks, React Hook Form, Material UI), HTML5, CSS3 (Flexbox, Sass, in the Back-end with .NET Core and in the database: SQL Server."
 }

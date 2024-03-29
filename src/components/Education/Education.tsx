@@ -12,6 +12,12 @@ const Education = () => {
         <S.Title>
           {getTranslation('education', selectedLanguage.language as Language)}
         </S.Title>
+        <S.ContainerTech>
+          <S.IFCE />
+          <S.Tech>
+            {getTranslation('educationInformation', selectedLanguage.language as Language)}
+          </S.Tech>
+        </S.ContainerTech>
       </S.ContainerInfo>
     </S.Container>
   );

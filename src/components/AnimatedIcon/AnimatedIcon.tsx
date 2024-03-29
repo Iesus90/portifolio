@@ -10,9 +10,11 @@ interface MaskedCircleProps {
   cx: SpringValue<number>;
   cy: SpringValue<number>;
 }
-
+// eslint-disable-next-line
 enum ThemeType {
+  // eslint-disable-next-line
   Dark = 'dark',
+  // eslint-disable-next-line
   Light = 'light',
 }
 

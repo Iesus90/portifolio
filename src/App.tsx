@@ -26,7 +26,7 @@ const App = () => {
         <Tech />
         <Education />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
       </ThemeProvider>
     </Provider>
   );

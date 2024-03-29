@@ -24,6 +24,9 @@ import gitWhite from './shared/images/git_white.png';
 import gitBlack from './shared/images/git_black.png';
 import sqlWhite from './shared/images/sql_white.png';
 import sqlBlack from './shared/images/sql_black.png';
+import ifce from './shared/images/ifce.png';
+import logoWhite from './shared/images/logo_white.png';
+import logoBlack from './shared/images/logo_black.png';
 
 export interface Theme {
   themeName: string;
@@ -46,6 +49,8 @@ export interface Theme {
   iconFigma: string;
   iconGit: string;
   iconSQL: string;
+  iconIFCE: string;
+  logo: string;
 }
 
 export const light = {
@@ -68,7 +73,9 @@ export const light = {
   iconType: typeBlack,
   iconFigma: figmaBlack,
   iconGit: gitBlack,
-  iconSQL: sqlBlack
+  iconSQL: sqlBlack,
+  iconIFCE: ifce,
+  logo: logoWhite
 };
 
 export const dark = {
@@ -91,5 +98,15 @@ export const dark = {
   iconType: typeWhite,
   iconFigma: figmaWhite,
   iconGit: gitWhite,
-  iconSQL: sqlWhite
+  iconSQL: sqlWhite,
+  iconIFCE: ifce,
+  logo: logoBlack
+};
+
+export const breakpoints = {
+  mobile: '420px',
+  tablet: '768px',
+  desktop: '1024px',
+  desktopLarge: '1440px',
+  desktopWide: '1920px'
 };

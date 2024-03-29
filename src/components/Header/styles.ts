@@ -13,16 +13,19 @@ export const HeaderContainer = styled.header`
 export const HeaderContent = styled.div`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   height: 80%;
-  width: 80%;
-  margin: auto;
+  width: 90%;
 `;
 
 export const HeaderNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 850px) {
+    margin-right: 55px;
+  }
 `;
 
 export const HeaderUl = styled.div`
@@ -35,4 +38,19 @@ export const Options = styled.h1`
   color: #CBE4DE;
   padding: 2.0rem;
   transition: all 250ms linear 0s;
+`;
+
+export const Logo = styled.div`
+  background-image: url(${({ theme }) => theme.logo});
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 6%;
+  height: 100%;
+  margin: 10px 0 0 70px;
+
+  @media (max-width: 768px) {
+    width: 21%;
+    height: 100%;
+    margin: 10px 0 0 10px;
+  }
 `;

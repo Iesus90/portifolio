@@ -10,6 +10,12 @@ export const Container = styled.div`
   padding: 0 0 70px 70px;
   background-color: ${({ theme }) => theme.background};
   align-items: center;
+
+  @media (max-width: 768px) {
+    display: block;
+    padding: 70px 0 1rem 0;
+    height: auto;
+  }
 `;
 
 export const Dots1 = styled.div`
@@ -21,6 +27,10 @@ export const Dots1 = styled.div`
   height: 100px;
   top: 100px;
   right: 600px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Dots2 = styled.div`
@@ -32,6 +42,10 @@ export const Dots2 = styled.div`
   height: 100px;
   top: 450px;
   right: 150px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Circuits1 = styled.div`
@@ -43,6 +57,10 @@ export const Circuits1 = styled.div`
   height: 70px;
   top: 90px;
   right: 90px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const Circuits2 = styled.div`
@@ -54,18 +72,31 @@ export const Circuits2 = styled.div`
   height: 70px;
   top: 500px;
   right: 700px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ContainerInfo = styled.div`
-  flex-direction: column;
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const ContainerTyped = styled.div`
   background-color: ${({ theme }) => theme.backgroundTitles};
   border: 2px solid ${({ theme }) => theme.borders};
+  box-shadow: ${({ theme }) => theme.borders} 0px 0px 10px;
   border-radius: 10px;
-  max-width: 400px;
+  max-width: 350px;
   padding: 10px 10px 10px 10px;
+
+  @media (max-width: 768px) {
+    margin: 5px;
+  }
 `;
 
 export const Hello = styled.h1`
@@ -86,6 +117,12 @@ export const Dev = styled.h1`
   max-width: 530px;
   font-size: 70px;
   margin: 0;
+
+  @media (max-width: 768px) {
+    text-align: center;
+    font-size: 270%;
+    margin: 5px;
+  }
 `;
 
 export const ContainerSocial = styled.div`
@@ -182,4 +219,10 @@ export const Me = styled.div`
   height: 350px;
   margin-left: 100px;
   z-Index: 9;
+
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+  }
 `;

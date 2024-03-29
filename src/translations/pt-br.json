@@ -7,5 +7,9 @@
   "hello": "Olá, meu nome é ",
   "dev": "Desenvolvedor Front-End",
   "educationInformation":
-    "Bacharelado em Ciências da Computação IFCE - Instituto Federal de Educação, Ciências e Tecnologia do Ceará 2016 - 2021"
+    "Bacharelado em Ciências da Computação IFCE - Instituto Federal de Educação, Ciências e Tecnologia do Ceará 2016 - 2021",
+  "descriptionLar": "Responsável pelo desenvolvimento e manutenção de sistemas web e aplicativos móveis utilizando tecnologias como React, VueJs e React Native. Contribuí ativamente na criação de soluções para os aplicativos Teams Lux e Bentham Obras.",
+  "descriptionLead": "Responsável pelo desenvolvimento e manutenção de aplicativos móveis utilizando tecnologias como React, React Native e Android. Contribuí ativamente na criação de soluções para os aplicativos Aprendizado Acessível e Tutor, integrantes da plataforma de Educação a Distância (EAD) do LEAD. Além disso, participei de outros projetos voltados para o processamento de áudio.",
+  "descriptionSalutis": "Responsável pelo desenvolvimento e manutenção do sistema da empresa utilizando tecnologias como JavaScript e SQL. Contribuí ativamente na criação de soluções e resolução de bugs para o sistema de gerenciamento de recursos de empresas do ramo em saúde suplementar.",
+  "descriptionKognit": "Responsável pelo desenvolvimento e manutenção de sistema web utilizando tecnologias como React js (Styled-component, Redux, Redux-Saga, Redux Thunk, React Router, Hooks, React Hook Form, Material UI), HTML5, CSS3 (Flexbox, Sass, no Back-end com .NET Core e no banco de dados: SQL Server."
 }

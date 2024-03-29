@@ -20,7 +20,7 @@ const About = () => {
           <ReactTyped
             style={{
               color: theme.title,
-              fontSize: '30px',
+              fontSize: '24px',
               fontWeight: 'lighter',
               borderRadius: '20px',
               padding: '10px 10px 10px 10px',

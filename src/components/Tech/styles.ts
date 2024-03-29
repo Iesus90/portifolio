@@ -16,6 +16,7 @@ export const Title = styled.div`
   background-color: ${({ theme }) => theme.backgroundTitles};
   color: ${({ theme }) => theme.title};
   border: 2px solid ${({ theme }) => theme.borders};
+  box-shadow: ${({ theme }) => theme.borders} 0px 0px 10px;
   border-radius: 10px;
   max-width: 400px;
   padding: 10px 10px 10px 10px;
@@ -26,6 +27,11 @@ export const ContainerTech = styled.div`
   display: grid;
   grid-template-columns: 310px 100px;
   column-gap: 100px;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const Tech = styled.p`
@@ -41,6 +47,11 @@ export const React = styled.div`
   background-size: contain;
   width: 15%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 30%;
+    height: 90%;
+  }
 `;
 
 export const HTML = styled.div`
@@ -49,6 +60,11 @@ export const HTML = styled.div`
   background-size: contain;
   width: 50%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 25%;
+    height: 190%;
+  }
 `;
 
 export const CSS = styled.div`
@@ -57,6 +73,11 @@ export const CSS = styled.div`
   background-size: contain;
   width: 45%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 25%;
+    height: 190%;
+  }
 `;
 
 export const JS = styled.div`
@@ -65,6 +86,11 @@ export const JS = styled.div`
   background-size: contain;
   width: 15%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 25%;
+    height: 190%;
+  }
 `;
 
 export const Type = styled.div`
@@ -73,6 +99,11 @@ export const Type = styled.div`
   background-size: contain;
   width: 15%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 25%;
+    height: 190%;
+  }
 `;
 
 export const Git = styled.div`
@@ -81,6 +112,11 @@ export const Git = styled.div`
   background-size: contain;
   width: 15%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 25%;
+    height: 190%;
+  }
 `;
 
 export const SQL = styled.div`
@@ -89,6 +125,11 @@ export const SQL = styled.div`
   background-size: contain;
   width: 45%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 25%;
+    height: 190%;
+  }
 `;
 
 export const Figma = styled.div`
@@ -97,4 +138,9 @@ export const Figma = styled.div`
   background-size: contain;
   width: 50%;
   height: 150%;
+
+  @media (max-width: 768px) {
+    width: 25%;
+    height: 190%;
+  }
 `;
