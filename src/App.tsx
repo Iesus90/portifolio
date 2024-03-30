@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Provider } from 'react-redux'
+import { Analytics } from '@vercel/analytics/react';
 import { ThemeProvider } from 'styled-components';
 import { light, dark, Theme } from './theme';
 import store from './store'
@@ -16,6 +17,7 @@ const App = () => {
   return (
     <Provider store={store}>
       <ThemeProvider theme={selectedTheme}>
+        <Analytics />
         <Header
           dark={dark}
           light={light}
